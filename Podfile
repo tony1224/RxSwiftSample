@@ -7,6 +7,7 @@ target 'RxSwiftSample' do
 
   # Pods for RxSwiftSample
   pod 'RxSwift'
-  pod 'RxCocoa' 
+  pod 'RxCocoa'
+  pod 'R.swift' 
 
 end
