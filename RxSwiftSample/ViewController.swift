@@ -29,6 +29,9 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
+        // WwDC18 cherry-pick Xcode 10 beta
+        // Source Control Workflow in Xcode
+        
         textField.rx.text
             .map{$0} // observerを１個ずつ処理するよ
             .bind(to: label.rx.text) // observerに紐づける処理
