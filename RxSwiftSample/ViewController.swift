@@ -29,6 +29,8 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
+        print("Hoge")
+        
         textField.rx.text
             .map{$0} // observerを１個ずつ処理するよ
             .bind(to: label.rx.text) // observerに紐づける処理
