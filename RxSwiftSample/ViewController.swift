@@ -31,6 +31,7 @@ class ViewController: UIViewController {
         
         // WwDC18 cherry-pick Xcode 10 beta
         // Source Control Workflow in Xcode
+        print("🐶")
         
         textField.rx.text
             .map{$0} // observerを１個ずつ処理するよ
